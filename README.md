@@ -1,7 +1,7 @@
 mod_suphp
 =========
 
-mod_suphp spec and patch files to build RPMs for el7.
+Spec and patch files to build mod_suphp-0.7.1 RPMs for el7.
 
 In order to activate mod_suphp support, `/etc/httpd/conf.d/mod_suphp.conf`
 has to be edited.
@@ -26,3 +26,5 @@ you can selectively enable mod_suphp:
 Should you require mod_userdir support, in order to enable ~user URLs, you should set 
 `check_vhost_docroot=false` in the `/etc/suphp.conf` file, as currently suphp would fail
 with an incorrect vhost.
+
+`old` is just a folder to keep old patches (found in fedora repository). Not used.
